@@ -17,7 +17,4 @@ export const POST = async (req) => {
     } catch (error) {
         return new Response("Failed to create a new prpmpt", { status: 500 });
     }
-
-
-
 }
